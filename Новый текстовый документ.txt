@@ -1,1 +1,34 @@
-https://bestprogrammer.ru/izuchenie/kak-sozdat-linejnuyu-diagrammu-na-javascript
+File Edit Selection View Go Run Terminal Help
+script.js - Visual Studio Code
+19
+°
+index.html
+# style.css
+JS script.js
+C: > Users > student.IT-KTK > Desktop > E > js > JS script.js > …
+1 let ctx = document.querySelector('#myChart").getContext('2d');
+let chart = new Chart (ctx, {
+3
+tyne: 'line',
+5
+data: {
+d
+6
+7
+labels: ["asd", "fgh", "jkl","213"],
+datasets: [{
+8
+label: "My first charset",
+9
+10
+11
+12
+13
+3)
+backgroundColor: "rgb(255, 99, 132)",
+borderColor: "rgb(255, 99, 132)",
+data: [25, 21, 32, 19, 50],
+14
+options: { }
+15
+});
